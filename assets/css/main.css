@@ -230,7 +230,7 @@ input, select, textarea {
 		font-size: 0.7em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 760px) {
 
 		h1 {
 			font-size: 2em;
@@ -1309,7 +1309,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			.row {
 				display: flex;
@@ -1906,7 +1906,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			input[type="submit"],
 			input[type="reset"],
@@ -2326,7 +2326,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			.icon.major {
 				margin: 0 0 1.5em 0;
@@ -2676,7 +2676,7 @@ input, select, textarea {
 		margin-top: 3em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 760px) {
 
 		header.major {
 			margin-bottom: 0;
@@ -2840,7 +2840,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			.features {
 				width: 100%;
@@ -2939,7 +2939,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			.statistics {
 				display: block;
@@ -3053,7 +3053,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			.spotlight .image {
 				padding: 0.35em;
@@ -3086,7 +3086,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 1em 5em 4em 5em ;
+			padding: 1em 5em 1em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3148,7 +3148,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			#header {
 				padding: 3em 2em 0.1em 2em ;
@@ -3320,7 +3320,7 @@ input, select, textarea {
 				}
 		
 		/* TODO change nav bar from display none to a mobile drobdown solution of some kind */
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 760px) {
 
 			#nav {
 				display: none;
@@ -3632,7 +3632,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			#main > .main {
 				padding: 3em 2em 1em 2em ;
@@ -3743,7 +3743,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 760px) {
 
 			#footer {
 				padding: 3em 2em 1em 2em ;
