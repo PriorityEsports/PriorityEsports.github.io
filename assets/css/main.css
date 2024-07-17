@@ -3318,7 +3318,8 @@ input, select, textarea {
 				#nav.alt ul li a {
 					font-size: 0.9em;
 				}
-
+		
+		/* TODO change nav bar from display none to a mobile drobdown solution of some kind */
 		@media screen and (max-width: 980px) {
 
 			#nav {
