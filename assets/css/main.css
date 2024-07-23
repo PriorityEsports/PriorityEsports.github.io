@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #180083;
+		background-color: linear-gradient(290deg, #c50000 15%, #180083 85%);
 		background-image: url("images/overlay.png"), -moz-linear-gradient(290deg, #c50000 15%, #180083 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(290deg, #c50000 15%, #180083 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(290deg, #c50000 15%, #180083 85%);
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #180083;
+		background-color: linear-gradient(290deg, #c50000 15%, #180083 85%);
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3226,6 +3226,12 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+
+		@media screen and (max-width: 480px) {
+			max-width: calc(100%);
+			
+		}
+
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3793,7 +3799,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				max-width: calc(100% - 2em);
+				max-width: 100%;
 			}
 
 		}
