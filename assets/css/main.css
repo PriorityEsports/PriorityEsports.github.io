@@ -3320,17 +3320,32 @@ input, select, textarea {
 				}
 		
 		/* TODO change nav bar from display none to a mobile drobdown solution of some kind */
-		@media screen and (max-width: 760px) {
-
-			#nav {
-				display: none;
+		
+		.hamburger-menu {
+			display: none;
+			cursor: pointer;
 			}
-
-				#nav + #main {
-					padding-top: 0;
-				}
-
+		
+		.bar {
+			display: block;
+			width: 25px;
+			height: 3px;
+			margin: 5px auto;
+			background-color: #444343;
 		}
+		@media screen and  (max-width: 855px) {
+			.hamburger-menu {
+				display: inline-block; /* Show the hamburger menu on small screens */
+			}
+		
+			#nav ul {
+				display: none; /* Hide the navigation list initially */
+			}
+		
+			#nav ul.active {
+				display: block; /* Show the navigation list when active */
+			}
+	}
 
 /* Main */
 
