@@ -3850,8 +3850,7 @@ input, select, textarea {
 		position: relative;
 		width: 100%;
 		text-align: center;
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding-bottom: 2em;
 	}
 	.prev, .next {
 		cursor: pointer;
