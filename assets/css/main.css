@@ -2839,7 +2839,7 @@ input, select, textarea {
 				}
 
 		}
-		
+
 		.features .image {		
 			display: inline-block;
 			margin-left: 4em;
@@ -3136,6 +3136,7 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					max-height: 300px;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3147,6 +3148,10 @@ input, select, textarea {
 				#header.alt {
 					padding: 1em 4em 0em 4em ;
 				}
+					#header.alt .logo img{
+						max-height: 250px;
+					}
+			
 
 		}
 
@@ -3159,6 +3164,11 @@ input, select, textarea {
 				#header.alt {
 					padding: 1em 3em 0em 3em ;
 				}
+
+					#header.alt .logo img{
+						max-height: 200px;
+					}
+				
 
 		}
 
